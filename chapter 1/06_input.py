@@ -1,0 +1,67 @@
+a = int(input("enter number 1\n"))
+b = int(input("enter numbner 2\n"))
+
+print("number a is :",a)
+print("number a is :",b) 
+print("sum is ",a+b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
