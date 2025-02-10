@@ -1,0 +1,9 @@
+l1=["apple",5,14,"lalit"]
+print(l1)
+l1[0]=("lalu")
+#l1.append("lalit")
+#l1.sort
+#l1.insert(2,"2")
+#l1.pop(3)
+l1.reverse()
+print(l1)

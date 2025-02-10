@@ -1,0 +1,10 @@
+num=[]
+n1=int(input("enter 1 number:-"))
+num.append(n1)
+n2=int(input("enter 2 number:-"))
+num.append(n2)
+n3=int(input("enter 3 number:-"))
+num.append(n3)
+n4=int(input("enter 4 number:-"))
+num.append(n4)
+print(sum(num))
