@@ -7,9 +7,5 @@ def fact(n):
         return n * fact(n-1)
 
 n = int(input("enter a number: "))
-
-if n < 0:
-    print("Factorial is not defined for negative numbers.")
-else:
-    result = fact(n)
-    print(f"Factorial of {n} is: {result}")
+result = fact(n)
+print(f"Factorial of {n} is: {result}")
