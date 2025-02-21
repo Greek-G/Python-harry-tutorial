@@ -1,14 +1,14 @@
 import random
 
-choices = {"r": -1, "p": 1, "s": 0}  # 's' -> Rock, 'w' -> Paper, 'g' -> Scissors
-computer = random.choice([-1, 0, 1])  
+choices = {"r": -1, "p": 1, "s": 0}  # 'r=Rock, 'p'=Paper, 's'=Scissors
+computer = random.choice([-1, 0, 1])  #storing npc input
 
 youstr = input("Enter your choice (r = Rock, p = Paper, s = Scissors): ")
-you = choices.get(youstr)
+you = choices.get(youstr)  #storing user input
 
-if you is None:
+if you is None:   #Checking ipnt
     print("Invalid input! Please choose 'r', 'p', or 's'.")
-else:
+else:  #declaring result
     print(f"Computer chose: {['rock', 'paper', 'scissor'][computer + 1]}")
     if computer == you:
         print("It's a draw!")
