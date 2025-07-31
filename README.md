@@ -46,7 +46,7 @@ You can find the original tutorials and playlists here:
 * **Core Concepts:** Solid grasp of variables, data types, conditional statements, and loops.
 * **Functions & Modules:** Understanding how to write and use functions for cleaner, reusable code.
 * **Object-Oriented Programming (OOP):** Practicing classes, objects, inheritance, and encapsulation.
-* **(Add more as you progress!)**
+* **Project (mini):** Created a small project using python 
 
 ---
 
